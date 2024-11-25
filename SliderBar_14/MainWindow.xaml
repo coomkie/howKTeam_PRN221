@@ -1,0 +1,14 @@
+﻿<Window x:Class="SliderBar_14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SliderBar_14"
+        mc:Ignorable="d"
+        Title="Duonglkhe17323" Height="408" Width="667">
+    <StackPanel>
+        <Slider x:Name="sldName" Maximum="100" Value="50"></Slider>
+        <TextBox x:Name="txValueSlider" 
+        Text="{Binding Path=Value, ElementName=sldName}"></TextBox>
+    </StackPanel>
+</Window>

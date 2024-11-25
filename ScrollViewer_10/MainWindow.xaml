@@ -1,0 +1,46 @@
+﻿<Window x:Class="ScrollViewer_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScrollViewer_10"
+        mc:Ignorable="d"
+        Title="DuongLKHE173232" Height="350" Width="503">
+    <Grid>
+        <Button Width="50" Height="30" HorizontalAlignment="Left" Content="hello"
+                Click="Button_Click"></Button>
+        <Grid Width="200">
+            <ScrollViewer x:Name="scvMain" VerticalScrollBarVisibility="Auto"
+                          HorizontalScrollBarVisibility="Visible">
+                <StackPanel>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                    <Button Content="Le Khai Duong"></Button>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+       
+        
+    </Grid>
+</Window>

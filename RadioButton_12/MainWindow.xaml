@@ -1,0 +1,34 @@
+﻿<Window x:Class="RadioButton_12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioButton_12"
+        mc:Ignorable="d"
+        Title="Duonglkhe173232" Height="307" Width="501">
+    <StackPanel>
+        <Border x:Name="brMain" BorderThickness="3" BorderBrush="Aqua" Margin="5">
+            <StackPanel>
+                <RadioButton IsChecked="True" Content="Le Khai Duong 1"></RadioButton>
+                <RadioButton Content="Le Khai Duong 2"></RadioButton>
+                <RadioButton Content="Le Khai Duong 3"></RadioButton>
+            </StackPanel>
+        </Border>
+        <Border BorderThickness="3" BorderBrush="Aqua" Margin="5">
+            <StackPanel>
+                <RadioButton IsChecked="True" Content="Le Khai Duong 1"></RadioButton>
+                <RadioButton Content="Le Khai Duong 2"></RadioButton>
+                <RadioButton Content="Le Khai Duong 3"></RadioButton>
+            </StackPanel>
+        </Border>
+        <Border BorderThickness="3" BorderBrush="Aqua" Margin="5">
+            <StackPanel>
+                <RadioButton IsChecked="True" Content="Le Khai Duong 1"></RadioButton>
+                <RadioButton Content="Le Khai Duong 2"></RadioButton>
+                <RadioButton Content="Le Khai Duong 3"></RadioButton>
+            </StackPanel>
+        </Border>
+        <Button Content="Click here" Click="Button_Click"></Button>
+    </StackPanel>
+
+</Window>

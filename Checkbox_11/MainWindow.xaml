@@ -1,0 +1,13 @@
+﻿<Window x:Class="Checkbox_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Checkbox_11"
+        mc:Ignorable="d"
+        Title="DuongKHE173232" Height="258" Width="277">
+    <Grid>
+        <CheckBox Content="Duong 1"></CheckBox>
+        <CheckBox Content="Duong 2" Margin="0,24,0,-24" IsChecked="True"></CheckBox>
+    </Grid>
+</Window>

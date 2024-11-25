@@ -1,0 +1,2 @@
+D:\fpt\Semeter_7\PRN221\youtube\HowKTeam\DockPanel_7\obj\Debug\net6.0-windows\App.g.cs
+D:\fpt\Semeter_7\PRN221\youtube\HowKTeam\DockPanel_7\obj\Debug\net6.0-windows\DockPanel_7_MarkupCompile.cache
